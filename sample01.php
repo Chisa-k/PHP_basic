@@ -1,3 +1,4 @@
 <?php
-print('現在は'.date('G時 i分 s秒').'です');
+$today = new DateTime();
+print('現在は' . $today->format('G時 i分 s秒') . 'です');
     ?>
