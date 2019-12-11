@@ -9,5 +9,11 @@ while($x <= 365){
     print($x . "\n");
     $x++;
 }
+
+$t=100;
+while($t >= 1){
+    print($t . "\n");
+    $t =$t-2;
+}
 ?>
 </pre>
