@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>PHPのカレンダー</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        h3 {
+            margin-bottom: 30px;
+        }
+
+        th {
+            height: 30px;
+            text-align: center;
+        }
+
+        td {
+            height: 100px;
+        }
+
+        .today {
+            background: coral;
+        }
+
+        th:nth-of-type(1),
+        td:nth-of-type(1) {
+            color: red;
+        }
+
+        th:nth-of-type(7),
+        td:nth-of-type(7) {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3><a>&lt;</a>&nbsp;&nbsp;2019年　1月&nbsp;&nbsp;<a>&gt;</a></h3>
+
+        <table class="table.table-bordered">
+            <tr>
+                <th>日</th>
+                <th>月</th>
+                <th>火</th>
+                <th>水</th>
+                <th>木</th>
+                <th>金</th>
+                <th>土</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+            </tr>
+            <tr>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+                <th>13</th>
+                <th>14</th>
+            </tr>
+            <tr>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+                <th>19</th>
+                <th>20</th>
+                <th>21</th>
+            </tr>
+            <tr>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+                <th>25</th>
+                <th>26</th>
+                <th>27</th>
+                <th>28</th>
+            </tr>
+            <tr>
+                <th>29</th>
+                <th>30</th>
+                <th>31</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table>
+</body>
+
+</html>
