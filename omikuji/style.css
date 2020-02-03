@@ -1,0 +1,23 @@
+.wf-roundedmplus1c {
+    margin: 30px auto;
+    width: 777px;
+    background-color: #fffaf0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #777777;
+    font-family: "M PLUS Rounded 1c";
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.wf-nicomoji {
+    font-family: "Nico Moji";
+}
+
+h1 {
+    font-size: 50px;
+}
