@@ -1,5 +1,5 @@
 <?php
-$omikuji = array('大吉', '中吉', '小吉', '吉', '凶');
+$omikuji = array('大吉', '中吉', '小吉', '吉', '凶', '大凶');
 $today = rand(0, count($omikuji) - 1);
 $result = $omikuji[$today];
 ?>
