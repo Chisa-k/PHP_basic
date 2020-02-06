@@ -3,6 +3,9 @@ $omikuji = array('大吉', '吉', '中吉', '小吉', '末吉', '凶');
 $today = rand(0, count($omikuji) - 1);
 $result = $omikuji[$today];
 
+$messege = array('aaa', 'bbb', 'ccc');
+$todaymessege = rand(0, count($messege) - 1);
+$messege_02 = $messege[$todaymessege];
 ?>
 
 <!doctype html>
@@ -24,8 +27,8 @@ $result = $omikuji[$today];
         </div>
 
         <p>今日のあなたの運勢は、<span>【<?php echo $result; ?>】</span>です！</p>
-        <p>messege</p>
-        <p>【<?php echo $result; ?>】</p>
+        <p>★messege</p>
+        <p>「　<?php echo $messege_02; ?>　」</p>
         <p>今日も一日がんばりましょう！</p>
 
     </div>
