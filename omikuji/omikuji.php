@@ -14,7 +14,7 @@ $messege_02 = $messege[$todaymessege];
 <head>
     <meta charset="UTF-8">
     <meta content="width=decive-width, initial-scale=1.0" name="viewport" />
-    <title>今日の運勢おみくじ</title>
+    <title>今日のおみくじ</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
