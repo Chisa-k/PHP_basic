@@ -3,7 +3,7 @@ $omikuji = array('大吉', '吉', '中吉', '小吉', '末吉', '凶');
 $today = rand(0, count($omikuji) - 1);
 $result = $omikuji[$today];
 
-$messege = array('aaa', 'bbb', 'ccc');
+$messege = array('super happy', 'super lucky', 'smile');
 $todaymessege = rand(0, count($messege) - 1);
 $messege_02 = $messege[$todaymessege];
 ?>
