@@ -18,6 +18,7 @@ $messege_02 = $messege[$todaymessege];
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
@@ -30,7 +31,7 @@ $messege_02 = $messege[$todaymessege];
         <p>★messege</p>
         <p>「　<?php echo $messege_02; ?>　」</p>
         <p>今日も一日がんばりましょう！</p>
-
+        <p><button type="button" class="btn btn-outline-primary"><a href="<?php echo $_SERVER["SCRIPT_NAME"]; ?>">おみくじをもう一度引く</a></button></p>
     </div>
 </body>
 
